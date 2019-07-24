@@ -1,0 +1,40 @@
+{
+  "name": "learn-use-semantic-release-cli",
+  "version": "0.0.0-development",
+  "description": "My divine module",
+  "license": "MIT",
+  "repository": "ZWkang/learn-use-semantic-release-cli",
+  "author": {
+    "name": "ZWkang",
+    "email": "907747874@qq.com",
+    "url": "undefined"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "semantic-release": "semantic-release"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "meow": "^5.0.0"
+  },
+  "devDependencies": {
+    "ava": "^2.1.0",
+    "xo": "^0.24.0",
+    "semantic-release": "^15.13.18"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  }
+}
