@@ -22,6 +22,9 @@
 		"index.js",
 		"cli.js"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"keywords": [
 		"cli-app",
 		"cli",
